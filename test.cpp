@@ -1,18 +1,11 @@
 #include <iostream>
+#include <curlpp/cURLpp.hpp>
+#include <curlpp/Easy.hpp>
+#include <curlpp/Options.hpp>
 
 using namespace std;
 
 int main()
 {
-    fake_function(10);
-}
-
-bool fake_function(int num)
-{
-    if (num != 0)
-    {
-        cout << "Working properly" << endl;
-        return false;
-    }
-    return true;
+    return 0;
 }
